@@ -1,5 +1,5 @@
 import { Component, OnInit, Output, EventEmitter, Input } from '@angular/core';
-import { LAUNCH, LANDING, YEARS } from '../../utils/constants';
+import { LAUNCH, LANDING, YEARS } from '../utils/constants';
 import { Filters } from '../models/launch-models';
 
 @Component({

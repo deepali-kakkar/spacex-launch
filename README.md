@@ -5,8 +5,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 # App Overview
 
 - The app contains one main module(named AppModule)
-- We have three components(filter, home, launch list), and filter and launch list component is wrapped in home component.
-- By default while loading the app it will open the home component.
+- We have three components(filter, dashboard, launch list), and filter and launch list component are children of dashboard component.
+- By default while loading the app it will open the dashboard component.
 - Filters are all configurable and kept as Constants.
 - Api has been made in the parent level and data served to child component.
 - The app is followed with server side rendering.

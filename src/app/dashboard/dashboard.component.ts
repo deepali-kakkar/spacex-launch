@@ -5,11 +5,11 @@ import { LaunchDetails } from '../models/launch-models';
 import { DashboardService } from '../service/dashboard.service';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss'],
+  selector: 'app-dashboard',
+  templateUrl: './dashboard.component.html',
+  styleUrls: ['./dashboard.component.scss'],
 })
-export class HomeComponent implements OnInit {
+export class DashboardComponent implements OnInit {
   appliedYear: string;
   isLaunched: string;
   isLanded: string;
