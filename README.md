@@ -17,6 +17,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Server side rendered dashboard
+
+Run `npm run build:ssr` to compile the code with server side rendering.
+
+Run `npm run serve:ssr` to serve the code from above output.
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
